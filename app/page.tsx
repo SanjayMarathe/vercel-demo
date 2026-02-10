@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black dark">
       <Header />
-      <main>
+      <main className="bg-black">
         <HeroSection />
         <FeaturesSection />
         <SubjectsSection />
